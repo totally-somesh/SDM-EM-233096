@@ -1,0 +1,23 @@
+Business Entities :
+
+Title Of The Project : Online Ticket Booking System
+
+~ Following are the business entities involved in the scenario : 
+
+1. Customers
+2. Travel Agents
+3. Government Authorities
+4. Bank
+5. Application Management Team
+6. Owners
+
+
+~ Following are the tables involved in the project :
+	
+1. Users : User_ID / User_Name / User_Email / UID No / PassPort_No 
+
+2. Team : Emp_ID / Emp_Name / Emp_Email / Emp_Mobile
+
+3. Agents : Agent_ID / Agent_Name / Agent_Email 
+
+4. Ticket : Ticket_No / Source / Destination / Email / Price

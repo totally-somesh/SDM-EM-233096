@@ -1,0 +1,27 @@
+Users : User_ID / User_Name / User_Email / UID No / PassPort_No / Ticket_ID
+
+Team : Emp_ID / Emp_Name / Emp_Email / Emp_Mobile
+
+Agents : Agent_ID / Agent_Name / Agent_Email 
+
+Ticket : Ticket_No / Source / Destination / Email / Price  
+
+create table Users(
+User_ID int primary key,
+User_Name varchar(50),
+User_Email varchar(20),
+UID int,
+PassPort_No int
+);
+
+create table Employeees(
+Emp_ID int primary key,
+Emp_Name varchar(50),
+Emp_Mobile int
+);
+
+-u username -p database_name > output_file_path
+
+mysqldump -u root@localhost -p iacsdmarch23 > "C:\Users\dac\Desktop\233096 SOMESH D DAHOTRE\"
+
+mysqldump -u root@localhost -p root123 iacsdmarch23 > ticket.sql

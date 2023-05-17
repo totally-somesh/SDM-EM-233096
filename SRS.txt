@@ -1,0 +1,55 @@
+SRS : System Requirements Specifications
+
+
+Documented By : SOMESH D DAHOTRE / 233096 / A Batch / IACSD DAC-2023
+
+
+~ Title : Online Ticket Booking System
+
+
+~ Objective : To build an userfriendly application for booking 
+		Tickets of train / airlines etc.
+
+
+~ Scope : The online application must focus on all the customers all over the world including local entities.
+
+
+~ Definitions : SRS = System Requirements Specifications
+		NLB = Network Load Balancing
+		DB  = DataBase
+		MD  = Meta Data
+
+~ Functional Requirements : 
+  1. Interface Seggregation Principle (SOLID Principles) :
+	Interfaces should be separated in order to achieve haselfree handling of the application as far as user is concerned.
+
+  2. Data must be secured by maintaining tight encapuslation of the data members.
+
+  3. 3 - Tier Architecture : Preferably 3 tiers should be included as front end / middleware / backend (DB Cluster), so that 'Single Responsibility Principle' can be achieved.
+
+  4. Database should be maintained properly, so as to achieve consistency in data.
+
+  5. NLB i.e. Network Load Balancing is really a necessary part and must be included. The aim to use this for high performance during peak usage of the application. 
+
+  6. Preferably Modern Programming Languages like JAVA should be preferred in the Middleware so as to use latest technology and to target high efficiency.
+
+  7. The Ticket Booking Application must include proper Authentication protocols for all user / applicants. 
+
+  8. The application must provide all the techinical access to the management team and should give separate UI i.e. User Interface to both users & Team by providing separate classes / interfaces.
+
+  9. Dependency Inversion Principle : All classes must be dependent on the interfaces and preferably not on concrete classes. 
+
+  10. The online application must be portable and accessible from all types of devices, so as to widen the use & attract more users all over the world.
+
+
+~ Non Functional Requirements : 
+
+  1. Avaialabiliy
+  2. Accesability
+  3. Maintainability 
+  4. UI / UX
+  5. Modularity 
+    
+
+
+
